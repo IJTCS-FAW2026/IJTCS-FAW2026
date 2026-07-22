@@ -1049,6 +1049,96 @@ pre {
   margin-top: 0;
 }
 
+.committee-group {
+  padding: 22px 0;
+  border-bottom: 1px solid #dfe2e6;
+}
+
+.committee-group:first-child {
+  padding-top: 12px;
+}
+
+.committee-group:last-child {
+  border-bottom: 0;
+}
+
+.committee-group > h3 {
+  margin: 0 0 13px;
+  color: #21304b;
+  font-size: 1.08rem;
+}
+
+.committee-list {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.committee-list li {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.42fr) minmax(0, 1fr);
+  gap: 16px;
+  margin: 0;
+  padding: 8px 11px;
+  border-left: 3px solid #d2dae3;
+  background: #f7f9fb;
+}
+
+.committee-list strong {
+  color: #2c6399;
+}
+
+.committee-list span {
+  color: #4f5966;
+}
+
+.track-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.track-card {
+  display: flex;
+  min-height: 225px;
+  flex-direction: column;
+  padding: 24px;
+  border: 1px solid #d3dce6;
+  border-top: 5px solid #2f6bd6;
+  background: #fff;
+}
+
+.track-card .track-code {
+  margin: 0 0 10px;
+  color: #2f6bd6;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.track-card h3 {
+  margin: 0 0 24px;
+  color: #245fcb;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.28rem;
+  line-height: 1.35;
+}
+
+.track-card .track-chairs {
+  margin: auto 0 0;
+  padding-top: 16px;
+  border-top: 1px solid #e1e5e9;
+  color: #343e4b;
+  line-height: 1.65;
+}
+
+.committee-pending {
+  margin-top: 38px;
+}
+
 @media (max-width: 900px) {
   .program-shell {
     width: min(100% - 24px, 760px);
@@ -1162,6 +1252,19 @@ pre {
 
   .campus-feature figcaption {
     padding: 22px;
+  }
+
+  .committee-list li,
+  .track-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .committee-list li {
+    gap: 2px;
+  }
+
+  .track-card {
+    min-height: 0;
   }
 
   .site-page-body .simple-table {

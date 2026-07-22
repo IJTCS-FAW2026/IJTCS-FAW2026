@@ -1,5 +1,11 @@
 # Image credits
 
+## `ruc-emblem.png`
+
+- Description: Official emblem of Renmin University of China
+- Source: [Renmin University of China Visual Identity](https://www.ruc.edu.cn/xuexiaobiaozhi1924747550510977025.html)
+- Website modification: displayed with the official clear-space requirement preserved
+
 The conference website uses the following photographs of Renmin University of China. Both files were downloaded at a reduced display size from Wikimedia Commons and are cropped responsively by the website CSS.
 
 ## `ruc-campus.jpg`

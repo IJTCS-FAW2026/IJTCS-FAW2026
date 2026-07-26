@@ -7,7 +7,7 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [ ] Official conference name
 - [ ] Official acronym
 - [ ] Host / organizer / co-organizer wording
-- [ ] Conference dates
+- [x] Conference dates — November 7–10, 2026
 - [ ] Venue building and room
 - [ ] Official contact email
 
@@ -21,6 +21,7 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [ ] Advisory Committee
 - [ ] Steering Committee
 - [ ] Program Committee Members
+- [ ] Confirm that all committee and Program Committee names are ordered alphabetically by family name
 - [ ] Spelling of names and affiliations
 - [ ] Personal links, if used
 

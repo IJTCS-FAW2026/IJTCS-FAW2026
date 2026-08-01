@@ -6,7 +6,7 @@
 
 - [ ] 会议正式英文全称
 - [ ] 会议简称写法
-- [ ] 主办、承办、协办单位的英文表述
+- [x] 主办单位英文表述 — China Computer Federation 与 Renmin University of China
 - [x] 会议日期 — 2026 年 11 月 7–10 日
 - [ ] 具体会场、楼宇、会议室
 - [ ] 会议公邮
@@ -17,18 +17,18 @@
 - [ ] General Chair(s)
 - [ ] Program Committee Chair(s)
 - [ ] Track Chair(s)
-- [ ] Local Organization
+- [x] Organization Committee
 - [ ] Advisory Committee
 - [ ] Steering Committee
 - [ ] Program Committee Members
-- [ ] 确认所有委员会及 Program Committee 姓名均按姓氏英文字母顺序排列
+- [ ] 确认所有委员会及 Program Committee 姓名均按要求的字母顺序排列
 - [ ] 姓名拼写
 - [ ] 单位英文名称
 - [ ] 个人主页链接
 
 ## 投稿信息
 
-- [ ] 投稿系统链接
+- [x] 投稿系统链接 — OpenReview
 - [x] 截稿日期 — 2026 年 8 月 15 日（AoE）
 - [x] 通知日期 — 2026 年 9 月 25 日（AoE）
 - [ ] Camera-ready / full version 截止日期
@@ -36,7 +36,7 @@
 - [ ] 模板格式
 - [ ] 附录政策
 - [ ] 出版安排
-- [ ] Special issue 安排
+- [x] Special issue 安排
 
 ## 注册信息
 

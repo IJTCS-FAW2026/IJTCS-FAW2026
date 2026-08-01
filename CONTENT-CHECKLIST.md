@@ -6,7 +6,7 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 
 - [ ] Official conference name
 - [ ] Official acronym
-- [ ] Host / organizer / co-organizer wording
+- [x] Organizer wording — China Computer Federation and Renmin University of China
 - [x] Conference dates — November 7–10, 2026
 - [ ] Venue building and room
 - [ ] Official contact email
@@ -17,17 +17,17 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [ ] General Chair(s)
 - [ ] Program Committee Chair(s)
 - [ ] Track Chair(s)
-- [ ] Local Organization
+- [x] Organization Committee
 - [ ] Advisory Committee
 - [ ] Steering Committee
 - [ ] Program Committee Members
-- [ ] Confirm that all committee and Program Committee names are ordered alphabetically by family name
+- [ ] Confirm that all committee and Program Committee names follow the requested alphabetical order
 - [ ] Spelling of names and affiliations
 - [ ] Personal links, if used
 
 ## Submission
 
-- [ ] Submission system link
+- [x] Submission system link — OpenReview
 - [x] Submission deadline — August 15, 2026 (AoE)
 - [x] Acceptance notification — September 25, 2026 (AoE)
 - [ ] Camera-ready / full-version deadline
@@ -35,7 +35,7 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [ ] Formatting style
 - [ ] Appendix policy
 - [ ] Proceedings policy
-- [ ] Special issue policy
+- [x] Special issue policy
 
 ## Registration
 

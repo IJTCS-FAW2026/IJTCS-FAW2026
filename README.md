@@ -71,8 +71,7 @@ Allow: /
 - `contact.html`: contact information
 - `assets/css/style.css`: website styling
 - `assets/js/main.js`: mobile navigation script
-- `assets/img/ruc-campus.jpg`: Renmin University campus photograph used on the homepage and attending page
-- `assets/img/ruc-mingde.jpg`: Mingde Complex photograph used in the shared page banner
+- `assets/img/ruc-lide.jpg`: Lide Building photograph used in the shared page banner and on the homepage
 - `assets/img/IMAGE-CREDITS.md`: image sources, authors, licenses, and modification notes
 - `assets/img/hero-campus.svg`: original abstract campus illustration retained as a fallback asset
 - `.nojekyll`: disables Jekyll processing on GitHub Pages

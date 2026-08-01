@@ -28,7 +28,7 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 ## Submission
 
 - [x] Submission system link — OpenReview
-- [x] Submission deadline — August 15, 2026 (AoE)
+- [x] Submission deadline — August 20, 2026 (AoE)
 - [x] Acceptance notification — September 25, 2026 (AoE)
 - [ ] Camera-ready / full-version deadline
 - [ ] Paper length

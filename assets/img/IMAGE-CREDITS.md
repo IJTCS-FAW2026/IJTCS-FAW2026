@@ -12,10 +12,16 @@
 - Source: [CCF official logo download](https://www.ccf.org.cn/About_CCF/2025-02-12/837885.shtml)
 - Website modification: resized for display
 
-## `ruc-lide.jpg`
+## `ruc-lide-closeup.jpg`
 
-- Description: Lide Building, Renmin University of China
-- Source: [RUC Youth — Lide Building becomes a new RUC landmark](https://qnrd.ruc.edu.cn/txb/d495q/d03b495/f59cd6aa5bda42e481e2c027b3794ec6.htm)
+- Description: Close view of Lide Building, Renmin University of China
+- Source: Provided by the IJTCS-FAW 2026 organizers
+- Website modification: cropped responsively for display
+
+## `ruc-lide-panorama.jpg`
+
+- Description: Panoramic view of Lide Building, Renmin University of China
+- Source: Provided by the IJTCS-FAW 2026 organizers
 - Website modification: cropped responsively for display
 
 ## `ruc-culture-venue.jpg`

@@ -21,5 +21,5 @@
 ## `ruc-culture-venue.jpg`
 
 - Description: Conference space inside the Culture Building, Renmin University of China
-- Source: [Renmin University of China](https://deke.ruc.edu.cn/xwzx/f417bbafbf254fc78dbe52dc60e7e86a.htm)
+- Source: Provided by the IJTCS-FAW 2026 organizers
 - Website modification: cropped responsively for display

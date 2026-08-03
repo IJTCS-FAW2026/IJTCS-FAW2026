@@ -60,9 +60,9 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 
 ## Launch
 
-- [ ] Remove draft banner
-- [ ] Remove noindex metadata
-- [ ] Update robots.txt
+- [x] Remove internal status banner
+- [x] Use indexable metadata on public pages
+- [x] Update robots.txt and sitemap.xml
 - [ ] Check mobile layout
-- [ ] Check all links
+- [x] Check all local links
 - [ ] Confirm all logos and permissions

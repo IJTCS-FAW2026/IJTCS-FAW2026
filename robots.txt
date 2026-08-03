@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://ijtcs-faw2026.github.io/IJTCS-FAW2026/sitemap.xml

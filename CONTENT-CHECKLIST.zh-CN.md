@@ -36,7 +36,7 @@
 - [ ] 模板格式
 - [ ] 附录政策
 - [ ] 出版安排
-- [x] Special issue 安排
+- [ ] Special issue 期刊 — TBA
 
 ## 注册信息
 

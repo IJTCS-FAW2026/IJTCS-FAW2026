@@ -35,7 +35,7 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [ ] Formatting style
 - [ ] Appendix policy
 - [ ] Proceedings policy
-- [x] Special issue policy
+- [ ] Special issue journals — TBA
 
 ## Registration
 

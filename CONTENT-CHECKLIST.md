@@ -41,10 +41,9 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 
 - [x] Proposal submission email — ijtcsfaw2026tutorials@outlook.com
 - [x] Proposal submission deadline — October 7, 2026 (AoE)
-- [ ] Decision notification — TBA
-- [ ] Tutorial day — TBA (proposed: November 7, 2026)
-- [ ] Standard duration — TBA (proposed: two hours)
-- [ ] Proposal length — TBA (proposed: 2–3 pages)
+- [x] Tutorial day — November 7, 2026
+- [x] Standard duration — two hours
+- [x] Proposal length — 2–3 pages
 
 ## Registration
 

@@ -40,7 +40,8 @@
 
 ## Tutorials
 
-- [x] 提案投稿邮箱 — ijtcsfaw2026tutorials@outlook.com
+- [x] 提案投稿邮箱 — ijtcsfaw2026tutorials@outlook.com 与 weian.li@sdu.edu.cn
+- [x] Tutorial Chair — Weian Li（weian.li@sdu.edu.cn）
 - [x] 提案投稿截止日期 — 2026 年 10 月 7 日（AoE）
 - [x] Tutorial 日期 — 2026 年 11 月 7 日
 - [x] 标准时长 — 两小时

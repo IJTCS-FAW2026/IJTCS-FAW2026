@@ -39,7 +39,8 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 
 ## Tutorials
 
-- [x] Proposal submission email — ijtcsfaw2026tutorials@outlook.com
+- [x] Proposal submission emails — ijtcsfaw2026tutorials@outlook.com and weian.li@sdu.edu.cn
+- [x] Tutorial Chair — Weian Li (weian.li@sdu.edu.cn)
 - [x] Proposal submission deadline — October 7, 2026 (AoE)
 - [x] Tutorial day — November 7, 2026
 - [x] Standard duration — two hours

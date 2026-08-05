@@ -28,6 +28,7 @@
 ```text
 index.html              主页与 Overview
 cfp.html                Call for Papers 与 Tracks
+tutorials.html          Call for Tutorials 与教程提案说明
 submission.html         投稿说明
 committees.html         委员会
 program.html            会议日程

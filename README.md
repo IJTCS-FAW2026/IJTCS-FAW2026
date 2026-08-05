@@ -22,6 +22,7 @@ GitHub Pages deploys the `main` branch from the repository root. The site is dep
 
 - `index.html`: overview and important dates
 - `cfp.html`: Call for Papers and track descriptions
+- `tutorials.html`: Call for Tutorials, proposal guidelines, and tutorial submission details
 - `submission.html`: submission information and OpenReview link
 - `committees.html`: conference committees and track chairs
 - `program.html`: conference programme

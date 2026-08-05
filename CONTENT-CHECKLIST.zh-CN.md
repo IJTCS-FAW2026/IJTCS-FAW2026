@@ -29,7 +29,7 @@
 ## 投稿信息
 
 - [x] 投稿系统链接 — OpenReview
-- [x] 截稿日期 — 2026 年 8 月 15 日（AoE）
+- [x] 截稿日期 — 2026 年 8 月 20 日（AoE）
 - [x] 通知日期 — 2026 年 9 月 25 日（AoE）
 - [ ] Camera-ready / full version 截止日期
 - [ ] 页数限制
@@ -37,6 +37,15 @@
 - [ ] 附录政策
 - [ ] 出版安排
 - [ ] Special issue 期刊 — TBA
+
+## Tutorials
+
+- [x] 提案投稿邮箱 — ijtcsfaw2026tutorials@outlook.com
+- [x] 提案投稿截止日期 — 2026 年 10 月 7 日（AoE）
+- [ ] 录用通知日期 — TBA
+- [ ] Tutorial 日期 — TBA（拟定：2026 年 11 月 7 日）
+- [ ] 标准时长 — TBA（拟定：两小时）
+- [ ] 提案篇幅 — TBA（拟定：2–3 页）
 
 ## 注册信息
 

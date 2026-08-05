@@ -37,6 +37,15 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [ ] Proceedings policy
 - [ ] Special issue journals — TBA
 
+## Tutorials
+
+- [x] Proposal submission email — ijtcsfaw2026tutorials@outlook.com
+- [x] Proposal submission deadline — October 7, 2026 (AoE)
+- [ ] Decision notification — TBA
+- [ ] Tutorial day — TBA (proposed: November 7, 2026)
+- [ ] Standard duration — TBA (proposed: two hours)
+- [ ] Proposal length — TBA (proposed: 2–3 pages)
+
 ## Registration
 
 - [ ] Registration system link

@@ -7,7 +7,7 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [ ] Official conference name
 - [ ] Official acronym
 - [x] Organizer wording — China Computer Federation and Renmin University of China
-- [x] Conference dates — November 7–10, 2026
+- [x] Conference dates — Nov 7–10, 2026
 - [ ] Venue building and room
 - [ ] Official contact email
 
@@ -28,9 +28,9 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 ## Submission
 
 - [x] Submission system link — OpenReview
-- [x] Submission deadline — August 30, 2026 (AoE)
-- [x] Acceptance notification — September 30, 2026 (AoE)
-- [x] Camera-ready / full-version deadline — October 10, 2026 (AoE)
+- [x] Submission deadline — Aug 30, 2026 (AoE)
+- [x] Acceptance notification — Sep 30, 2026 (AoE)
+- [x] Camera-ready / full-version deadline — Oct 10, 2026 (AoE)
 - [x] Paper length — 12 single-spaced pages, excluding title page and references
 - [x] Formatting style — at least 11-point type and one-inch margins; LNCS encouraged
 - [x] Appendix policy — clearly marked, arbitrary length, consulted at the Program Committee's discretion
@@ -42,8 +42,8 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 
 - [x] Proposal submission emails — ijtcsfaw2026tutorials@outlook.com and weian.li@sdu.edu.cn
 - [x] Tutorial Chair — Weian Li, Shandong University, China
-- [x] Proposal submission deadline — October 7, 2026 (AoE)
-- [x] Tutorial day — November 7, 2026
+- [x] Proposal submission deadline — Oct 7, 2026 (AoE)
+- [x] Tutorial day — Nov 7, 2026
 - [x] Standard duration — two hours
 - [x] Proposal length — 2–3 pages
 

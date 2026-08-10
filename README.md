@@ -2,7 +2,7 @@
 
 This repository contains the official static website for **IJTCS-FAW 2026**, organized by the China Computer Federation and Renmin University of China in Beijing, China.
 
-The conference will be held from **November 7 to 10, 2026**, at the Culture Building of Renmin University of China. Items that have not yet been announced are explicitly marked `TBA`.
+The conference will be held from **Nov 7 to 10, 2026**, at the Culture Building of Renmin University of China. Items that have not yet been announced are explicitly marked `TBA`.
 
 ## Published website
 

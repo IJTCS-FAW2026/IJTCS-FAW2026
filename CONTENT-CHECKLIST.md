@@ -28,14 +28,15 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 ## Submission
 
 - [x] Submission system link — OpenReview
-- [x] Submission deadline — August 20, 2026 (AoE)
-- [x] Acceptance notification — September 25, 2026 (AoE)
-- [ ] Camera-ready / full-version deadline
-- [ ] Paper length
-- [ ] Formatting style
-- [ ] Appendix policy
-- [ ] Proceedings policy
-- [ ] Special issue journals — TBA
+- [x] Submission deadline — August 30, 2026 (AoE)
+- [x] Acceptance notification — September 30, 2026 (AoE)
+- [x] Camera-ready / full-version deadline — October 10, 2026 (AoE)
+- [x] Paper length — 12 single-spaced pages, excluding title page and references
+- [x] Formatting style — at least 11-point type and one-inch margins; LNCS encouraged
+- [x] Appendix policy — clearly marked, arbitrary length, consulted at the Program Committee's discretion
+- [x] Review model — double-blind
+- [x] Proceedings policy — planned for Springer LNCS; final production details to follow
+- [x] Special issue journals — Theoretical Computer Science; Journal of Combinatorial Optimization; Theory of Computing Systems; Blockchain
 
 ## Tutorials
 

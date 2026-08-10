@@ -29,14 +29,15 @@
 ## 投稿信息
 
 - [x] 投稿系统链接 — OpenReview
-- [x] 截稿日期 — 2026 年 8 月 20 日（AoE）
-- [x] 通知日期 — 2026 年 9 月 25 日（AoE）
-- [ ] Camera-ready / full version 截止日期
-- [ ] 页数限制
-- [ ] 模板格式
-- [ ] 附录政策
-- [ ] 出版安排
-- [ ] Special issue 期刊 — TBA
+- [x] 截稿日期 — 2026 年 8 月 30 日（AoE）
+- [x] 通知日期 — 2026 年 9 月 30 日（AoE）
+- [x] Camera-ready / full version 截止日期 — 2026 年 10 月 10 日（AoE）
+- [x] 页数限制 — 12 页单倍行距，不计标题页与参考文献
+- [x] 模板格式 — 至少 11 磅字体、四边至少 1 英寸页边距；建议使用 LNCS 格式
+- [x] 附录政策 — 可附明确标注且长度不限的附录，由程序委员会自行决定是否查阅
+- [x] 评审方式 — 双盲评审
+- [x] 出版安排 — 计划由 Springer LNCS 出版，最终制作要求另行通知
+- [x] Special issue 期刊 — Theoretical Computer Science；Journal of Combinatorial Optimization；Theory of Computing Systems；Blockchain
 
 ## Tutorials
 

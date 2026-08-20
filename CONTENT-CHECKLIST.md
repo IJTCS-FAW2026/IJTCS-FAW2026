@@ -29,8 +29,8 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 
 - [x] Submission system link — OpenReview
 - [x] Submission deadline — Aug 30, 2026 (AoE)
-- [x] WINE Fast Track deadline — Sep 15, 2026 (AoE)
-- [x] WINE Fast Track policy — eligible WINE 2026 papers, verbatim reviews, Changes and Response statement, additional assessment as needed
+- [x] WINE and ISAAC Fast Track deadline — Sep 15, 2026 (AoE)
+- [x] WINE and ISAAC Fast Track policy — eligible WINE 2026 or ISAAC 2026 papers, verbatim reviews, Changes and Response statement, additional assessment as needed
 - [x] Acceptance notification — Sep 30, 2026 (AoE)
 - [x] Camera-ready / full-version deadline — Oct 10, 2026 (AoE)
 - [x] Paper length — 12 single-spaced pages, excluding title page and references

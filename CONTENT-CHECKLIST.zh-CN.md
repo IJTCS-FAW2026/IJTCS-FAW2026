@@ -30,6 +30,8 @@
 
 - [x] 投稿系统链接 — OpenReview
 - [x] 截稿日期 — 2026 年 8 月 30 日（AoE）
+- [x] WINE Fast Track 截止日期 — 2026 年 9 月 15 日（AoE）
+- [x] WINE Fast Track 政策 — 面向 WINE 2026 未录用论文，附完整原始评审和 Changes and Response，必要时补充评审
 - [x] 通知日期 — 2026 年 9 月 30 日（AoE）
 - [x] Camera-ready / full version 截止日期 — 2026 年 10 月 10 日（AoE）
 - [x] 页数限制 — 12 页单倍行距，不计标题页与参考文献

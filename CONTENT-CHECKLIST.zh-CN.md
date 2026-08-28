@@ -32,6 +32,7 @@
 - [x] 截稿日期 — 2026 年 9 月 7 日（AoE）
 - [x] WINE 和 ISAAC Fast Track 截止日期 — 2026 年 9 月 15 日（AoE）
 - [x] WINE 和 ISAAC Fast Track 政策 — 面向 WINE 2026 或 ISAAC 2026 未录用论文，附完整原始评审和 Changes and Response，必要时补充评审
+- [x] Fast Track 投稿格式 — 可使用 IJTCS-FAW 2026、WINE 2026 或 ISAAC 2026 投稿格式，并遵守所选格式的页数及其他要求
 - [x] 通知日期 — 2026 年 9 月 30 日（AoE）
 - [x] Camera-ready / full version 截止日期 — 2026 年 10 月 10 日（AoE）
 - [x] 页数限制 — 12 页单倍行距，不计标题页与参考文献

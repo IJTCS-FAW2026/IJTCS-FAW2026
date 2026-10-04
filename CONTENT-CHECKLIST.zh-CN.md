@@ -34,7 +34,7 @@
 - [x] WINE 和 ISAAC Fast Track 政策 — 使用同一 OpenReview 投稿系统并选择 Fast Track，将前序会议的完整 review PDF 作为辅助材料上传；同时提供 Changes and Response，必要时补充评审
 - [x] Fast Track 投稿格式 — 可使用 IJTCS-FAW 2026、WINE 2026 或 ISAAC 2026 投稿格式，并遵守所选格式的页数及其他要求
 - [x] 通知日期 — 2026 年 9 月 30 日（AoE）
-- [x] Camera-ready / full version 截止日期 — 2026 年 10 月 10 日（AoE）
+- [x] Camera-ready / full version 截止日期 — 2026 年 10 月 20 日（AoE）
 - [x] 页数限制 — 12 页单倍行距，不计标题页与参考文献
 - [x] 模板格式 — 至少 11 磅字体、四边至少 1 英寸页边距；建议使用 LNCS 格式
 - [x] 附录政策 — 可附明确标注且长度不限的附录，由程序委员会自行决定是否查阅

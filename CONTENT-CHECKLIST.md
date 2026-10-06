@@ -33,7 +33,12 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [x] WINE and ISAAC Fast Track policy — use the same OpenReview system, select Fast Track, and upload the complete prior-conference review PDF as supplementary material; Changes and Response and additional assessment apply
 - [x] Fast Track formatting — IJTCS-FAW 2026, WINE 2026, or ISAAC 2026 submission format accepted; selected format's page limit and requirements apply
 - [x] Acceptance notification — Sep 30, 2026 (AoE)
-- [x] Camera-ready / full-version deadline — Oct 20, 2026 (AoE)
+- [x] Camera-ready deadline — Oct 20, 2026, 00:00 Beijing time (UTC+8)
+- [x] Camera-ready format — Springer LNCS, 12 pages excluding title page and references, no appendix
+- [x] Camera-ready files — final PDF, ZIP of LaTeX sources or RTF, and physically signed License-to-Publish form
+- [x] Camera-ready submission — OpenReview Camera Ready Revision tab; fallback email ijtcsfaw2026pcs@outlook.com
+- [x] Copyright Form — root URL remains /Copyright%20Form.docx
+- [x] Accepted-paper presentation — at least one registered author in person; separate full registration for each paper
 - [x] Paper length — 12 single-spaced pages, excluding title page and references
 - [x] Formatting style — at least 11-point type and one-inch margins; LNCS encouraged
 - [x] Appendix policy — clearly marked, arbitrary length, consulted at the Program Committee's discretion

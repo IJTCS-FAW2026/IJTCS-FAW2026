@@ -51,9 +51,17 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [x] Proposal submission emails — ijtcsfaw2026tutorials@outlook.com and weian.li@sdu.edu.cn
 - [x] Tutorial Chair — Weian Li, Shandong University, China
 - [x] Proposal submission deadline — Oct 7, 2026 (AoE)
-- [x] Tutorial day — Nov 7, 2026
+- [x] Tutorial days — Nov 7–8, 2026, 13:30–15:30 each day, Beijing time (UTC+8)
 - [x] Standard duration — two hours
 - [x] Proposal length — 2–3 pages
+
+## Accepted papers and programme
+
+- [x] 54 Accept (Oral) papers verified against OpenReview on Oct 18, 2026; Track A: 18, B: 4, C: 21, D: 11
+- [x] Titles, author order, forum links, session assignments, and paper order cross-checked with the organizers' Tencent document
+- [x] 15 paper sessions, 18 minutes per paper including questions and transition; all programme times are Beijing time (UTC+8)
+- [x] Nov 7–10 programme includes three keynotes, two tutorials, Women in TCS Forum, and a poster session
+- [ ] Keynote/tutorial speakers and titles, session chairs, presenting authors, and detailed forum/poster arrangements — TBA
 
 ## Registration
 

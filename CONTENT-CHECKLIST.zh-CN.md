@@ -52,17 +52,9 @@
 - [x] 提案投稿邮箱 — ijtcsfaw2026tutorials@outlook.com 与 weian.li@sdu.edu.cn
 - [x] Tutorial Chair — Weian Li，Shandong University, China
 - [x] 提案投稿截止日期 — 2026 年 10 月 7 日（AoE）
-- [x] Tutorial 日期 — 2026 年 11 月 7–8 日，每天 13:30–15:30（北京时间，UTC+8）
+- [x] Tutorial 日期 — 2026 年 11 月 7 日
 - [x] 标准时长 — 两小时
 - [x] 提案篇幅 — 2–3 页
-
-## 录用论文与日程
-
-- [x] 2026 年 10 月 18 日核对 OpenReview 的 54 篇 Accept (Oral) 论文；Track A：18 篇，B：4 篇，C：21 篇，D：11 篇
-- [x] 与会务方腾讯文档逐篇核对题名、作者顺序、论坛链接、分组及组内顺序
-- [x] 共 15 个论文分组，每篇 18 分钟，含报告、提问及切换；日程统一使用北京时间（UTC+8）
-- [x] 11 月 7–10 日日程包括三场 Keynote、两场 Tutorial、Women in TCS Forum 和 Poster Session
-- [ ] Keynote/Tutorial 演讲人与题目、分组主持人、论文报告人、Forum/Poster 详细安排 — TBA
 
 ## 注册信息
 

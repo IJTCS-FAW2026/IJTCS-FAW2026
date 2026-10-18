@@ -41,7 +41,3 @@ GitHub Pages deploys the `main` branch from the repository root. The site is dep
 ## Maintenance
 
 Replace `TBA` items as information becomes available, preserve the shared page shell, and verify local links before pushing changes to `main`.
-
-The accepted-paper list and detailed programme are generated as static HTML from `assets/data/conference-2026.json`. That file contains only public paper metadata and programme information verified against OpenReview and the organizers' Tencent document on Oct 18, 2026. Author order is preserved; sessions are independent of submission tracks.
-
-After updating the data, run `python scripts/build-conference-pages.py`. Use `python scripts/build-conference-pages.py --check` to check that the generated sections are current, paper/session IDs are unique, paper slots fill their sessions, and the single-venue timetable has no overlaps. The generated HTML is committed, so GitHub Pages itself still needs no build step. Keep the Copyright Form at its existing root URL.

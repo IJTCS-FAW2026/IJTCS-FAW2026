@@ -49,7 +49,8 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 ## Posters
 
 - [x] Call for Posters — papers submitted to ijtcsfaw2026pcs@outlook.com by email; brief review by the conference organizers
-- [ ] Poster submission deadline, presentation date/time, and poster display instructions — TBA
+- [x] Poster submission deadline — Oct 29, 2026
+- [ ] Poster presentation date/time and poster display instructions — TBA
 
 ## Tutorials
 

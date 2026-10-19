@@ -50,7 +50,8 @@
 ## Posters
 
 - [x] Call for Posters — 论文通过会议邮箱 ijtcsfaw2026pcs@outlook.com 提交，由会务方作简要审核
-- [ ] Poster 截稿日期、展示时间及海报展示要求 — TBA
+- [x] Poster 截稿日期 — 2026 年 10 月 29 日
+- [ ] Poster 展示时间及海报展示要求 — TBA
 
 ## Tutorials
 

@@ -47,6 +47,11 @@
 - [x] 出版安排 — 计划由 Springer LNCS 出版，最终制作要求另行通知
 - [x] Special issue 期刊 — Theoretical Computer Science；Journal of Combinatorial Optimization；Theory of Computing Systems；Blockchain
 
+## Posters
+
+- [x] Call for Posters — 论文通过会议邮箱 ijtcsfaw2026pcs@outlook.com 提交，由会务方作简要审核
+- [ ] Poster 截稿日期、展示时间及海报展示要求 — TBA
+
 ## Tutorials
 
 - [x] 提案投稿邮箱 — ijtcsfaw2026tutorials@outlook.com 与 weian.li@sdu.edu.cn

@@ -46,6 +46,11 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [x] Proceedings policy — planned for Springer LNCS; final production details to follow
 - [x] Special issue journals — Theoretical Computer Science; Journal of Combinatorial Optimization; Theory of Computing Systems; Blockchain
 
+## Posters
+
+- [x] Call for Posters — papers submitted to ijtcsfaw2026pcs@outlook.com by email; brief review by the conference organizers
+- [ ] Poster submission deadline, presentation date/time, and poster display instructions — TBA
+
 ## Tutorials
 
 - [x] Proposal submission emails — ijtcsfaw2026tutorials@outlook.com and weian.li@sdu.edu.cn

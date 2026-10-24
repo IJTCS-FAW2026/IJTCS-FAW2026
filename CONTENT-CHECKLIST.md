@@ -87,7 +87,7 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [x] Suggested airport / railway connections to Renmin University metro station
 - [x] Yanshan Hotel recommendation, direct booking contacts, and CNY 500/550/600 breakfast-package rates
 - [x] Yanshan Hotel exterior and twin-room reference photographs, with Ctrip source attribution
-- [ ] Visa invitation-letter procedure
+- [x] Visa invitation-letter procedure — email ijtcsfaw2026pcs@outlook.com with passport name, affiliation, visa-application address, and accepted paper title(s), if applicable; no financial sponsorship
 - [ ] Emergency contacts
 - [ ] Restaurant information
 

@@ -74,9 +74,11 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [x] Registration portal — https://ccf.org.cn/ijtcs2026 (CCF activation pending)
 - [ ] Early-registration deadline
 - [x] Configured registration window — Oct 24–Nov 10, 2026, ending 23:59 Beijing time; opening awaits CCF release
-- [x] Student fees, tax included — CNY 2,800 non-member; CNY 2,300 CCF student member
+- [x] Student fees, tax included — CNY 3,000 non-member; CNY 2,500 CCF student member (updated per organizing-group notice and checked against CCF)
 - [x] Regular fees, tax included — CNY 3,200 non-member; CNY 2,700 CCF member
 - [x] Student poster fee, tax included — CNY 1,200
+- [x] Student Poster Registration instructions — separate CCF category for member and non-member students; does not replace accepted-paper full registration
+- [x] Attendance welcome for researchers and students without an accepted conference paper
 - [x] Payment methods — WeChat Pay and Alipay configured
 - [x] Refund policy — CCF rules retained; applications through Nov 3, 2026, 23:59 Beijing time
 - [ ] Invoice policy

@@ -66,7 +66,7 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 
 - [x] Public metadata and programme checked on Oct 24, 2026: 51 accepted papers; Track A: 18, B: 4, C: 19, D: 10
 - [x] 16 paper sessions and 33 events; 18-minute paper slots including questions and transition; all times Beijing time (UTC+8)
-- [x] Anonymous TBA slot retained at Nov 7, 11:17–11:35; withdrawn papers are not listed as accepted
+- [x] Withdrawn paper #39 slot removed; #50 and #64 move forward to 11:17 and 11:35, S01 ends and lunch starts at 11:53; no empty slot remains
 - [ ] Keynote/tutorial speakers and titles, session chairs, presenting authors, and detailed forum/poster arrangements — TBA
 
 ## Registration

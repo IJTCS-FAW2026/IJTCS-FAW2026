@@ -2,7 +2,8 @@
 
 --validate-only checks data without touching pages; --check also verifies that
 generated HTML is current. Accepted papers may have no presentation slot.
-Withdrawn slots retain their time but render only TBA, never a paper title.
+Only slots explicitly present in the data are rendered. To close a withdrawn
+slot, remove it, renumber subsequent slots, and adjust the session end time.
 """
 
 import argparse
@@ -171,6 +172,7 @@ def programme_html(data, papers, sessions, slots, events):
     by_number = {p["number"]: p for p in papers}
     types = Counter(e["type"] for e in events)
     out = [
+        '<p><a href="output/pdf/IJTCS-FAW-2026-Programme.pdf" class="text-link" download>Download the English programme (PDF)</a></p>',
         f'<p>All times are <strong>{escape(data["timezone"])}</strong>. Paper presentations are in a single venue; each {data["talk_minutes"]}-minute slot includes the talk, questions, and transition.</p>',
         '<p>Session chairs and presenting authors: <span class="placeholder">TBA</span>. Keynote and tutorial speakers and talk titles: <span class="placeholder">TBA</span>. Further forum and poster details: <span class="placeholder">TBA</span>.</p>',
         f'<div class="conference-summary"><span>{len(papers)} accepted papers</span><span>{len(sessions)} paper sessions</span><span>{types["Keynote"]} keynotes</span><span>{types["Tutorial"]} tutorials</span></div>',

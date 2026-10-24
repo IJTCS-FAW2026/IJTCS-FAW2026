@@ -50,34 +50,43 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 
 - [x] Call for Posters — papers submitted to ijtcsfaw2026pcs@outlook.com by email; brief review by the conference organizers
 - [x] Poster submission deadline — Oct 29, 2026
-- [ ] Poster presentation date/time and poster display instructions — TBA
+- [x] Poster presentation — Nov 7, 2026, 15:00–16:00 Beijing time (UTC+8), during Tea Break & Poster Session
+- [ ] Accepted poster list and poster display instructions — TBA
 
 ## Tutorials
 
 - [x] Proposal submission emails — ijtcsfaw2026tutorials@outlook.com and weian.li@sdu.edu.cn
 - [x] Tutorial Chair — Weian Li, Shandong University, China
 - [x] Proposal submission deadline — Oct 7, 2026 (AoE)
-- [x] Tutorial day — Nov 7, 2026
-- [x] Standard duration — two hours
+- [x] Tutorial days — Nov 7–8, 2026, 13:30–15:00 each day, Beijing time (UTC+8)
+- [x] Standard duration — 90 minutes, including questions and interaction
 - [x] Proposal length — 2–3 pages
+
+## Accepted papers and programme
+
+- [x] Public metadata and programme checked on Oct 24, 2026: 51 accepted papers; Track A: 18, B: 4, C: 19, D: 10
+- [x] 16 paper sessions and 33 events; 18-minute paper slots including questions and transition; all times Beijing time (UTC+8)
+- [x] Anonymous TBA slot retained at Nov 7, 11:17–11:35; withdrawn papers are not listed as accepted
+- [ ] Keynote/tutorial speakers and titles, session chairs, presenting authors, and detailed forum/poster arrangements — TBA
 
 ## Registration
 
-- [ ] Registration system link
+- [x] Registration portal — https://ccf.org.cn/ijtcs2026 (CCF activation pending)
 - [ ] Early-registration deadline
-- [ ] Regular-registration deadline
-- [ ] Student fee
-- [ ] Regular fee
-- [ ] Other fee categories
-- [ ] Payment method
-- [ ] Refund policy
+- [x] Configured registration window — Oct 24–Nov 10, 2026, ending 23:59 Beijing time; opening awaits CCF release
+- [x] Student fees, tax included — CNY 2,800 non-member; CNY 2,300 CCF student member
+- [x] Regular fees, tax included — CNY 3,200 non-member; CNY 2,700 CCF member
+- [x] Student poster fee, tax included — CNY 1,200
+- [x] Payment methods — WeChat Pay and Alipay configured
+- [x] Refund policy — CCF rules retained; applications through Nov 3, 2026, 23:59 Beijing time
 - [ ] Invoice policy
 
 ## Local information
 
 - [ ] Campus map
-- [ ] Airport / railway instructions
-- [ ] Accommodation recommendations
+- [x] Suggested airport / railway connections to Renmin University metro station
+- [x] Yanshan Hotel recommendation, direct booking contacts, and CNY 500/550/600 breakfast-package rates
+- [x] Yanshan Hotel exterior and twin-room reference photographs, with Ctrip source attribution
 - [ ] Visa invitation-letter procedure
 - [ ] Emergency contacts
 - [ ] Restaurant information

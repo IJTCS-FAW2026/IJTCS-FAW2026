@@ -53,6 +53,7 @@ def records(data, name):
 
 def validate_data(data):
     date.fromisoformat(data["updated"])
+    date.fromisoformat(data.get("papers_verified", data["updated"]))
     if data["programme_status"] not in ("pending", "confirmed"):
         raise ValueError("Unknown programme status")
     if type(data["talk_minutes"]) is not int or data["talk_minutes"] <= 0:
@@ -136,9 +137,10 @@ def load_data():
 def accepted_html(data, papers, sessions, slots):
     counts = Counter(p["track"] for p in papers)
     scheduled = {s["paper_number"]: s for s in slots if s["status"] == "accepted"}
+    verified = data.get("papers_verified", data["updated"])
     out = [
         '<p>Listed by track and alphabetically by title. Author names retain their submitted order. Paper numbers are the OpenReview submission numbers; presentation sessions may span multiple tracks.</p>',
-        f'<p>Paper metadata verified on <time datetime="{escape(data["updated"])}">{escape(data["updated"])}</time> against <a href="https://openreview.net/group?id=IJTCS-FAW/2026/Conference">OpenReview</a>.</p>',
+        f'<p>Paper metadata verified on <time datetime="{escape(verified)}">{escape(verified)}</time> against <a href="https://openreview.net/group?id=IJTCS-FAW/2026/Conference">OpenReview</a>.</p>',
         f'<div class="conference-summary"><span>{len(papers)} accepted papers</span></div>',
         '<nav class="conference-jump-links" aria-label="Accepted paper tracks">',
     ]

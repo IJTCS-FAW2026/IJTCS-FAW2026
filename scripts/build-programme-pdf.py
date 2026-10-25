@@ -74,7 +74,7 @@ def styles(normal, bold, size):
     }
 
 
-def make_rows(events, slots, papers, module, style):
+def make_rows(events, slots, papers, module, style, talk_minutes):
     rows = []
     for event in events:
         time = f'{event["start"]}-{event["end"]}'
@@ -82,8 +82,8 @@ def make_rows(events, slots, papers, module, style):
             sid = event["session"]
             rows.append((time, [(f'{sid} | {text(event["title"])}', "session")], "session"))
             for slot in sorted(slots[sid], key=lambda s: s["order"]):
-                start = module.minutes(event["start"]) + (slot["order"] - 1) * 18
-                talk_time = f"{module.clock(start)}-{module.clock(start + 18)}"
+                start = module.minutes(event["start"]) + (slot["order"] - 1) * talk_minutes
+                talk_time = f"{module.clock(start)}-{module.clock(start + talk_minutes)}"
                 if slot["status"] != "accepted":
                     raise ValueError("Remove withdrawn slots before generating the printable programme")
                 paper = papers[slot["paper_number"]]
@@ -141,6 +141,9 @@ def draw_rows(pdf, rows, x, top, width):
 
 def main():
     module, (data, paper_rows, sessions, slot_rows, events) = load_source()
+    updated = date.fromisoformat(data["updated"])
+    updated_label = f"{updated:%b} {updated.day}, {updated.year}"
+    talk_minutes = data["talk_minutes"]
     normal, bold = register_fonts()
     by_number = {p["number"]: p for p in paper_rows}
     slots = defaultdict(list)
@@ -192,7 +195,7 @@ def main():
         pdf.setFont(normal, 8.2)
         pdf.setFillColor(GREY)
         pdf.drawString(margin, height - 92, "Culture Building, Renmin University of China | Beijing, China")
-        pdf.drawRightString(width - margin, height - 92, "All times: Beijing time (UTC+8) | Paper slots: 18 min incl. Q&A")
+        pdf.drawRightString(width - margin, height - 92, f"All times: Beijing time (UTC+8) | Paper slots: {talk_minutes} min incl. Q&A")
         morning = [e for e in days[day] if module.minutes(e["start"]) < 13 * 60]
         afternoon = [e for e in days[day] if module.minutes(e["start"]) >= 13 * 60]
         panels = [("MORNING", morning)] + ([("AFTERNOON", afternoon)] if afternoon else [])
@@ -201,7 +204,7 @@ def main():
             x = margin + panel * (panel_width + gutter)
             for size in (9.2, 9.0, 8.8, 8.6):
                 style = styles(normal, bold, size)
-                rows, used_height = layout_rows(make_rows(entries, slots, by_number, module, style), panel_width, style)
+                rows, used_height = layout_rows(make_rows(entries, slots, by_number, module, style, talk_minutes), panel_width, style)
                 if used_height <= body_top - body_bottom:
                     break
             else:
@@ -213,7 +216,7 @@ def main():
             print(f"{day} {heading}: {used_height:.1f}/{body_top-body_bottom:.1f} pt; title font {size}")
         pdf.setFillColor(GREY)
         pdf.setFont(normal, 7.2)
-        pdf.drawString(margin, 20, "Updated Oct 24, 2026 | Keynote/tutorial speakers and titles, and session chairs: TBA.")
+        pdf.drawString(margin, 20, f"Updated {updated_label} | Keynote/tutorial speakers and titles, and session chairs: TBA.")
         pdf.drawRightString(width - margin, 20, f"{page} / {len(days_sorted)}")
         pdf.drawString(margin, 10, URL)
         pdf.linkURL(URL, (margin, 8, margin + 230, 17), relative=0)

@@ -64,8 +64,9 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 
 ## Accepted papers and programme
 
-- [x] Public metadata and programme checked on Oct 24, 2026: 51 accepted papers; Track A: 18, B: 4, C: 19, D: 10
+- [x] Public paper metadata checked on Oct 24, 2026; programme amended by organizer instruction on Oct 25: 51 accepted papers; Track A: 18, B: 4, C: 19, D: 10
 - [x] 16 paper sessions and 33 events; 18-minute paper slots including questions and transition; all times Beijing time (UTC+8)
+- [x] Oct 25 schedule amendment — #34 moves to Nov 8 S15 first; S15 is Foundations and Systems of Artificial Intelligence, 16:32–17:44; Nov 9 S14 14:30–15:24, tea break 15:24–15:44, S06 15:44–16:20, S13 16:20–17:14
 - [x] Withdrawn paper #39 slot removed; #50 and #64 move forward to 11:17 and 11:35, S01 ends and lunch starts at 11:53; no empty slot remains
 - [ ] Keynote/tutorial speakers and titles, session chairs, presenting authors, and detailed forum/poster arrangements — TBA
 

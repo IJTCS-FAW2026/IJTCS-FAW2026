@@ -71,16 +71,18 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 
 ## Registration
 
-- [x] Registration portal — https://ccf.org.cn/ijtcs2026 (CCF activation pending)
+- [x] Registration portal — https://ccf.org.cn/ijtcs2026 ; CCF published status and accessible registration form confirmed on Oct 25, 2026; registration is open
+- [x] English registration form — https://conf.ccf.org.cn/conf/en/signup/add.htm?meetingId=m1563628076968054784179283958435 ; English fields viewed without submitting an order; default English, with EN / 中 language switching if a prior preference is remembered
 - [ ] Early-registration deadline
-- [x] Configured registration window — Oct 24–Nov 10, 2026, ending 23:59 Beijing time; opening awaits CCF release
+- [x] Registration period listed by CCF — Oct 24–Nov 10, 2026, ending 23:59 Beijing time
 - [x] Student fees, tax included — non-member CNY 3,000 / USD 451; CCF student member CNY 2,500 / USD 376
 - [x] Regular fees, tax included — non-member CNY 3,200 / USD 481; CCF member CNY 2,700 / USD 406
-- [x] Student poster fee, tax included — CNY 1,200 / USD 181 for both CCF student members and non-member students
-- [x] USD pricing reference — Bank of China USD spot buying quotation, Oct 25, 2026, 10:30 Beijing time: CNY 666.06 per USD 100; divide CNY fees by 6.6606 and round up to whole USD; not a platform settlement-rate claim
-- [x] Student Poster Registration instructions — separate CCF category for member and non-member students; does not replace accepted-paper full registration
+- [x] Student poster fees, tax included — CCF student member CNY 1,200 / USD 181; non-member student CNY 1,500 / USD 225
+- [x] USD pricing reference — four Full Conference Registration categories and CCF student member poster only: Bank of China USD spot buying quotation, Oct 25, 2026, 10:30 Beijing time, CNY 666.06 per USD 100; divide those five CNY fees by 6.6606 and round up to whole USD; not a platform settlement-rate claim
+- [x] Non-member student poster USD 225 is the organizer-set price from the latest fee notice, not the result of the BOC rounding formula
+- [x] Student Poster Registration instructions — separate from full registration, with different member and non-member fees; does not replace accepted-paper full registration
 - [x] Attendance welcome for researchers and students without an accepted conference paper
-- [x] Payment methods — WeChat Pay, Alipay, and 易支付国际版 international payment channel configured; conference activation is still pending and no live payment success is claimed
+- [x] Payment methods — WeChat Pay, Alipay, and 易支付国际版 international payment channel configured; no live payment success is claimed
 - [x] Payment guidance — desktop web browser recommended; CCF indicates the mobile page supports WeChat Pay only
 - [x] Refund policy — CCF rules retained; applications through Nov 3, 2026, 23:59 Beijing time
 - [ ] Invoice policy

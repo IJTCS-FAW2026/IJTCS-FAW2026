@@ -50,7 +50,7 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 
 - [x] Call for Posters — papers submitted to ijtcsfaw2026pcs@outlook.com by email; brief review by the conference organizers
 - [x] Poster submission deadline — Oct 29, 2026
-- [x] Poster presentation — Nov 7, 2026, 15:00–16:00 Beijing time (UTC+8), during Tea Break & Poster Session
+- [x] Poster presentation — Nov 7, 2026, 15:00–15:45 Beijing time (UTC+8), 45 minutes, during Tea Break & Poster Session
 - [ ] Accepted poster list and poster display instructions — TBA
 
 ## Tutorials
@@ -58,16 +58,19 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [x] Proposal submission emails — ijtcsfaw2026tutorials@outlook.com and weian.li@sdu.edu.cn
 - [x] Tutorial Chair — Weian Li, Shandong University, China
 - [x] Proposal submission deadline — Oct 7, 2026 (AoE)
-- [x] Tutorial days — Nov 7–8, 2026, 13:30–15:00 each day, Beijing time (UTC+8)
+- [x] Tutorial day — Nov 7, 2026: Tutorial 2 08:35–10:05; Tutorial 1 13:30–15:00, Beijing time (UTC+8)
 - [x] Standard duration — 90 minutes, including questions and interaction
 - [x] Proposal length — 2–3 pages
 
 ## Accepted papers and programme
 
-- [x] Public paper metadata checked on Oct 24, 2026; programme amended by organizer instruction on Oct 25: 51 accepted papers; Track A: 18, B: 4, C: 19, D: 10
+- [x] Public paper metadata checked on Oct 24, 2026; programme most recently amended by organizer instruction on Oct 27: 51 accepted papers; Track A: 18, B: 4, C: 19, D: 10
 - [x] 16 paper sessions and 33 events; 18-minute paper slots including questions and transition; all times Beijing time (UTC+8)
-- [x] Oct 25 schedule amendment — #34 moves to Nov 8 S15 first; S15 is Foundations and Systems of Artificial Intelligence, 16:32–17:44; Nov 9 S14 14:30–15:24, tea break 15:24–15:44, S06 15:44–16:20, S13 16:20–17:14
-- [x] Withdrawn paper #39 slot removed; #50 and #64 move forward to 11:17 and 11:35, S01 ends and lunch starts at 11:53; no empty slot remains
+- [x] Oct 27 Nov 7 schedule — Opening 08:30–08:35; Tutorial 2 08:35–10:05; Tea Break & Group Photo 10:05–10:25; S02 10:25–11:19; S04 11:19–11:55; Lunch 11:55–13:30; Tutorial 1 13:30–15:00; Tea Break & Poster Session 15:00–15:45; S07 15:45–16:39; S01 16:39–17:33
+- [x] All scheduled afternoon programmes retain their 13:30 start; Nov 7 lunch absorbs the timing difference and lasts 95 minutes
+- [x] Oct 27 Nov 8 schedule — morning and lunch unchanged; Keynote 1 13:30–14:30; tea break 14:30–14:50; S09 14:50–16:02; S15 (Foundations and Systems of Artificial Intelligence) 16:02–17:14, with #34 still first at 16:02–16:20
+- [x] Nov 9 and Nov 10 unchanged by the Oct 27 amendment — Nov 9 S14 14:30–15:24, tea break 15:24–15:44, S06 15:44–16:20, S13 16:20–17:14; earlier timetable descriptions are superseded by program.html
+- [x] Withdrawn paper #39 slot remains removed; #50 and #64 now present at 16:57–17:15 and 17:15–17:33 in Nov 7 S01; no empty slot remains
 - [ ] Keynote/tutorial speakers and titles, session chairs, presenting authors, and detailed forum/poster arrangements — TBA
 
 ## Registration

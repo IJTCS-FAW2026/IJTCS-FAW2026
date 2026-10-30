@@ -127,6 +127,17 @@ def validate_data(data):
         raise ValueError("A paper session appears more than once")
     if data["programme_status"] == "confirmed" and session_counts != Counter({sid: 1 for sid in sessions}):
         raise ValueError("Every confirmed session must appear once in the programme")
+    talk_events = {e["title"] for e in events if e["type"] in ("Keynote", "Tutorial")}
+    for event_title, detail in data.get("talk_details", {}).items():
+        if event_title not in talk_events:
+            raise ValueError(f"Talk details reference an unknown invited talk: {event_title}")
+        for key in ("speaker", "title", "source"):
+            if not isinstance(detail.get(key), str) or not detail[key].strip():
+                raise ValueError(f"Missing {key} for {event_title}")
+        date.fromisoformat(detail["updated"])
+        abstract = detail.get("abstract", [])
+        if not isinstance(abstract, list) or any(not isinstance(p, str) or not p.strip() for p in abstract):
+            raise ValueError(f"Invalid abstract for {event_title}")
     return data, papers, sessions, slots, events
 
 
@@ -176,7 +187,7 @@ def programme_html(data, papers, sessions, slots, events):
     out = [
         '<p><a href="output/pdf/IJTCS-FAW-2026-Programme.pdf" class="text-link" download>Download the English programme (PDF)</a></p>',
         f'<p>All times are <strong>{escape(data["timezone"])}</strong>. Paper presentations are in a single venue; each {data["talk_minutes"]}-minute slot includes the talk, questions, and transition.</p>',
-        '<p>Session chairs and presenting authors: <span class="placeholder">TBA</span>. Keynote and tutorial speakers and talk titles: <span class="placeholder">TBA</span>. Further forum and poster details: <span class="placeholder">TBA</span>.</p>',
+        '<p>Session chairs and presenting authors: <span class="placeholder">TBA</span>. Unannounced keynote and tutorial speakers and talk titles: <span class="placeholder">TBA</span>; confirmed talks are listed below. Further forum and poster details: <span class="placeholder">TBA</span>.</p>',
         f'<div class="conference-summary"><span>{len(papers)} accepted papers</span><span>{len(sessions)} paper sessions</span><span>{types["Keynote"]} keynotes</span><span>{types["Tutorial"]} tutorials</span></div>',
         '<nav class="conference-jump-links" aria-label="Programme days">',
     ]
@@ -224,7 +235,14 @@ def programme_html(data, papers, sessions, slots, events):
                 out += ['          </ol>', '        </details>']
             elif event["type"] in ("Keynote", "Tutorial"):
                 target = 'keynotes.html' if event["type"] == 'Keynote' else 'tutorials.html'
-                out.append(f'        Speaker and title: <span class="placeholder">TBA</span>. <a href="{target}">More information</a>.')
+                detail = data.get("talk_details", {}).get(event["title"])
+                if detail:
+                    anchor = event["title"].lower().replace(" ", "-")
+                    out += [f'        <strong>{escape(detail["title"])}</strong>',
+                            f'        <p>Speaker: {escape(detail["speaker"])}</p>',
+                            f'        <a href="{target}#{anchor}">Abstract and details</a>.']
+                else:
+                    out.append(f'        Speaker and title: <span class="placeholder">TBA</span>. <a href="{target}">More information</a>.')
             elif event["type"] == "Forum":
                 out.append('        Speakers and session details: <span class="placeholder">TBA</span>.')
             elif event["type"] == "Poster":
@@ -239,6 +257,26 @@ def programme_html(data, papers, sessions, slots, events):
                 out.append('        Reserved for session overruns and transitions.')
             out += ['      </td>', '    </tr>']
         out += ['  </tbody>', '</table>', '</section>']
+    return "\n".join(out)
+
+
+def tutorials_html(data, events):
+    out = []
+    for event in events:
+        if event["type"] != "Tutorial":
+            continue
+        detail = data.get("talk_details", {}).get(event["title"])
+        if not detail:
+            continue
+        anchor = event["title"].lower().replace(" ", "-")
+        day = date.fromisoformat(event["date"])
+        out += [f'<section aria-labelledby="{anchor}">',
+                f'<h3 id="{anchor}">{escape(event["title"])}: {escape(detail["title"])}</h3>',
+                f'<p><strong>Speaker:</strong> {escape(detail["speaker"])}</p>',
+                f'<p><strong>Time:</strong> <time datetime="{event["date"]}">Nov {day.day}, {day.year}</time>, {event["start"]}&ndash;{event["end"]}, {escape(data["timezone"])}.</p>',
+                '<h4>Abstract</h4>']
+        out += [f'<p>{escape(paragraph)}</p>' for paragraph in detail.get("abstract", [])]
+        out.append('</section>')
     return "\n".join(out)
 
 
@@ -267,6 +305,7 @@ def main():
     if not args.validate_only:
         replace_section(ROOT / "accepted-papers.html", "ACCEPTED PAPERS", accepted_html(data, papers, sessions, slots), args.check)
         replace_section(ROOT / "program.html", "PROGRAMME", programme_html(data, papers, sessions, slots, events), args.check)
+        replace_section(ROOT / "tutorials.html", "TUTORIALS", tutorials_html(data, events), args.check)
     scheduled = sum(s["status"] == "accepted" for s in slots)
     print(f"Validated {len(papers)} accepted papers ({scheduled} scheduled), {len(sessions)} sessions, {len(slots)} slots and {len(events)} events; no schedule overlaps.")
 

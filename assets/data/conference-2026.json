@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-30",
   "papers_verified": "2026-10-24",
   "sources": {
     "papers": "https://openreview.net/group?id=IJTCS-FAW/2026/Conference",
@@ -10,6 +10,18 @@
   "programme_note": "Direct organizer instructions on Oct 28 supersede the earlier shared draft. All oral presentation slots are 16 minutes and each day begins at 09:00. Morning sessions end on Nov 7 at 12:10, Nov 8 at 12:17, Nov 9 at 12:12, and Nov 10 at 12:00. Afternoon programmes retain their 13:30 start. The Nov 7 poster session is 60 minutes and the day ends at 17:36. Nov 8 has an additional 20-minute tea break before S08 and ends at 17:18. On Nov 9, the existing afternoon tea break moves to immediately after the Women in TCS Forum, and an additional 20-minute tea break precedes S13; the day ends at 17:18. Opening and group photo remain on Nov 8. Session numbering, paper metadata, and within-session paper order are unchanged. Withdrawn paper #39 remains excluded with no empty presentation slot.",
   "timezone": "Beijing time (UTC+8)",
   "talk_minutes": 16,
+  "talk_details": {
+    "Tutorial 2": {
+      "speaker": "Wei Tang",
+      "title": "Decision-Aware Predictor Optimization",
+      "abstract": [
+        "Predictions increasingly drive operational decisions, while advances in AI, particularly large language models (LLMs), offer an expanding set of predictors. However, the best predictor depends on how its predictions are used. How should we select or combine predictors when their downstream use is only partially known?",
+        "This tutorial introduces a decision-theoretic framework for predictor selection and aggregation. We begin with the foundations of predictor comparison and the roles of predictive information and calibration in downstream decisions. We then examine how to select or aggregate multiple predictors to perform well across a family of possible tasks, measuring decision quality relative to the best task-specific predictor. We discuss structural insights and algorithmic approaches for calibrated predictors, the challenges posed by miscalibration, and applications to heterogeneous LLM-based forecasts. The tutorial concludes with open research directions in optimizing predictors for the decisions they support."
+      ],
+      "updated": "2026-10-30",
+      "source": "Organizer instructions, Oct 30, 2026"
+    }
+  },
   "tracks": {
     "A": "Frontiers of Algorithmic Wisdom",
     "B": "Blockchain Theory and Technology",

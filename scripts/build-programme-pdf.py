@@ -74,7 +74,7 @@ def styles(normal, bold, size):
     }
 
 
-def make_rows(events, slots, papers, module, style, talk_minutes):
+def make_rows(events, slots, papers, module, style, talk_minutes, talk_details):
     rows = []
     for event in events:
         time = f'{event["start"]}-{event["end"]}'
@@ -92,7 +92,12 @@ def make_rows(events, slots, papers, module, style, talk_minutes):
         else:
             content = [(text(event["title"]), "event")]
             if event["type"] in ("Keynote", "Tutorial"):
-                content.append(("Speaker and title: TBA", "note"))
+                detail = talk_details.get(event["title"])
+                if detail:
+                    content += [(text(detail["title"]), "event"),
+                                (f'Speaker: {text(detail["speaker"])}', "note")]
+                else:
+                    content.append(("Speaker and title: TBA", "note"))
             elif event["type"] == "Forum":
                 content.append(("Speakers and details: TBA", "note"))
             elif event["type"] == "Poster":
@@ -204,7 +209,7 @@ def main():
             x = margin + panel * (panel_width + gutter)
             for size in (9.2, 9.0, 8.8, 8.6):
                 style = styles(normal, bold, size)
-                rows, used_height = layout_rows(make_rows(entries, slots, by_number, module, style, talk_minutes), panel_width, style)
+                rows, used_height = layout_rows(make_rows(entries, slots, by_number, module, style, talk_minutes, data.get("talk_details", {})), panel_width, style)
                 if used_height <= body_top - body_bottom:
                     break
             else:
@@ -216,7 +221,7 @@ def main():
             print(f"{day} {heading}: {used_height:.1f}/{body_top-body_bottom:.1f} pt; title font {size}")
         pdf.setFillColor(GREY)
         pdf.setFont(normal, 7.2)
-        pdf.drawString(margin, 20, f"Updated {updated_label} | Keynote/tutorial speakers and titles, and session chairs: TBA.")
+        pdf.drawString(margin, 20, f"Updated {updated_label} | Unannounced keynote/tutorial details and session chairs: TBA.")
         pdf.drawRightString(width - margin, 20, f"{page} / {len(days_sorted)}")
         pdf.drawString(margin, 10, URL)
         pdf.linkURL(URL, (margin, 8, margin + 230, 17), relative=0)

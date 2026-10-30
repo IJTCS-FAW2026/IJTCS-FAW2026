@@ -61,20 +61,24 @@ Use this checklist before publishing the IJTCS-FAW 2026 website publicly.
 - [x] Tutorial day — Nov 7, 2026: Tutorial 1 09:00–10:30; Tutorial 2 13:30–15:00, Beijing time (UTC+8)
 - [x] Standard duration — 90 minutes, including questions and interaction
 - [x] Proposal length — 2–3 pages
+- [x] Tutorial 2 confirmed on Oct 30 — Wei Tang, Decision-Aware Predictor Optimization; Nov 7, 13:30–15:00 Beijing time (UTC+8), unchanged from the Oct 28 timetable
+- [x] Tutorial 2 full supplied abstract — stored in canonical talk details and published on the tutorials page; the title and speaker are also shown in the programme and English PDF; no affiliation, biography, or photograph invented
+- [ ] Tutorial 1 title and presenter — TBA
 
 ## Accepted papers and programme
 
 - [x] Public paper metadata checked on Oct 24, 2026; programme supplied directly by the organizers on Oct 28: 51 accepted papers; Track A: 18, B: 4, C: 19, D: 10
 - [x] Current timetable authority — direct organizer instructions of Oct 28 take precedence over the shared document, which is retained only as an early draft reference; no new OpenReview metadata check is claimed
+- [x] Latest data revision — Oct 30 adds Tutorial 2 speaker, title, and abstract only; `updated` denotes the overall data revision, while timetable authority remains Oct 28 and `papers_verified` remains Oct 24
 - [x] 16 paper sessions and 35 events; 16-minute paper slots including questions and transition; all times Beijing time (UTC+8)
-- [x] Chronological numbering — paper sessions S01–S16, keynotes, and tutorials retain their existing IDs, titles, assignments, and paper order
+- [x] Chronological numbering — paper sessions S01–S16, keynotes, and tutorial event labels retain their existing IDs and order; paper-session titles and paper assignments are unchanged, with confirmed talk details tracked separately
 - [x] Oct 28 Nov 7 schedule — Tutorial 1 09:00–10:30; Tea Break 10:30–10:50 (no group photo); S01 10:50–11:38; S02 11:38–12:10; Lunch 12:10–13:30; Tutorial 2 13:30–15:00; Tea Break & Poster Session 15:00–16:00; S03 16:00–16:48; S04 16:48–17:36
 - [x] Daily start is 09:00; all scheduled afternoon programmes retain their 13:30 start, with remaining times following the Oct 28 revision
 - [x] Oct 28 Nov 8 schedule — Opening 09:00–09:05; Keynote 1 09:05–10:05; Tea Break & Group Photo 10:05–10:25; S05 10:25–11:13; S06 11:13–12:17; Lunch 12:17–13:30; Keynote 2 13:30–14:30; tea break 14:30–14:50; S07 14:50–15:54; tea break 15:54–16:14; S08 (Foundations and Systems of Artificial Intelligence) 16:14–17:18, with #34 still first at 16:14–16:30
 - [x] Oct 28 Nov 9 schedule — Keynote 3 09:00–10:00; tea break 10:00–10:20; S09 10:20–11:08; S10 11:08–12:12; Lunch 12:12–13:30; Women in TCS Forum 13:30–14:30; tea break 14:30–14:50; S11 14:50–15:38; S12 15:38–16:10; tea break 16:10–16:30; S13 16:30–17:18
 - [x] Oct 28 Nov 10 schedule — S14 09:00–10:04; S15 10:04–10:52; tea break 10:52–11:12; S16 11:12–12:00
 - [x] Withdrawn paper #39 slot remains removed; #50 and #64 now present at 17:04–17:20 and 17:20–17:36 in Nov 7 S04 (Fair Allocation of Goods and Chores); no empty slot remains
-- [ ] Keynote/tutorial speakers and titles, session chairs, presenting authors, and detailed forum/poster arrangements — TBA
+- [ ] Keynote speakers and titles, Tutorial 1 title and presenter, session chairs, presenting authors, and detailed forum/poster arrangements — TBA
 
 ## Registration
 
